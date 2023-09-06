@@ -1,4 +1,4 @@
-name: Upload to EC2
+name: Upload Changed Files to EC2
 
 on:
   push:
