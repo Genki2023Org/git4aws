@@ -3,7 +3,11 @@ name: Upload to EC2
 on:
   push:
     branches:
-      - master
+      - main
+
+defaults:
+    run:
+        shell: bash
 
 jobs:
   deploy:
